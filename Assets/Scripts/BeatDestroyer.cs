@@ -24,5 +24,6 @@ public class BeatDestroyer : MonoBehaviour
     {
         Destroy(rhythmController.currentBeat);
         rhythmController.pontos += 10;
+        rhythmController.combo++;
     }
 }

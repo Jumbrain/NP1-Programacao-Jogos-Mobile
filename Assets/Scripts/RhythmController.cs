@@ -7,16 +7,19 @@ public class RhythmController : MonoBehaviour
     public bool correctTiming = false;
     public GameObject currentBeat;
     public int pontos;
-    public TextMeshProUGUI tmp;
+    public int combo = 0;
+
+    [SerializeField] private TextMeshPro tmp;
 
     void Start()
     {
-        
+
     }
 
     void Update()
     {
         tmp.text = "pontos " + pontos;
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
