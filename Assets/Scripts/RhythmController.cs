@@ -6,10 +6,12 @@ public class RhythmController : MonoBehaviour
 {
     public bool correctTiming = false;
     public GameObject currentBeat;
-    public int pontos;
+    public float pontos;
     public int combo = 0;
+    public bool comboFalho;
 
-    [SerializeField] private TextMeshPro tmp;
+    [SerializeField] private TextMeshProUGUI tmpPonto;
+    [SerializeField] private TextMeshProUGUI tmpCombo;
 
     void Start()
     {
@@ -18,8 +20,8 @@ public class RhythmController : MonoBehaviour
 
     void Update()
     {
-        tmp.text = "pontos " + pontos;
-
+        tmpPonto.text = pontos.ToString();
+        tmpCombo.text = combo.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

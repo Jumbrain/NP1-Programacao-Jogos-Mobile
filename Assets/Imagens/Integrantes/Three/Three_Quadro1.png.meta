@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 7a71fa43adc4f0945a87073a1d3c63da
+guid: 59e74b4d1244a7c4f979b015ab7a33da
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7285104100621103090
-    second: fundo_0
+      213: 2660161340018064960
+    second: tree um (1)_0
+  - first:
+      213: -1870897983697087239
+    second: tree um (1)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fundo_0
+      name: tree um (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 122
-        width: 793
-        height: 1678
+        x: 53
+        y: 1046
+        width: 8
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ff2345d493e91560800000000000000
-      internalID: 7285104100621103090
+      spriteID: 04ef00505aacae420800000000000000
+      internalID: 2660161340018064960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree um (1)_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 154
+        width: 724
+        height: 1579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f49dbe323c3906e0800000000000000
+      internalID: -1870897983697087239
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fundo_0: 7285104100621103090
+      tree um (1)_0: 2660161340018064960
+      tree um (1)_1: -1870897983697087239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

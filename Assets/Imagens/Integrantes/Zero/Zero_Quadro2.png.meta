@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7a71fa43adc4f0945a87073a1d3c63da
+guid: 5bc9e9404a631a246aa58b648ad67488
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7285104100621103090
-    second: fundo_0
+      213: -6176024146070260426
+    second: zer quadro n2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fundo_0
+      name: zer quadro n2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 122
-        width: 793
-        height: 1678
+        x: 228
+        y: 357
+        width: 705
+        height: 1429
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ff2345d493e91560800000000000000
-      internalID: 7285104100621103090
+      spriteID: 6353f39d2ca5a4aa0800000000000000
+      internalID: -6176024146070260426
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fundo_0: 7285104100621103090
+      zer quadro n2_0: -6176024146070260426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

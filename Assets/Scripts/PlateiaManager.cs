@@ -22,15 +22,15 @@ public class PlateiaManager : MonoBehaviour
 
     void Plateia()
     {
-        if(rhythmController.combo >= 10)
+        if(rhythmController.combo >= 5)
         {
             animator.SetBool("ComboIniciar", true);
         }
 
-        if(rhythmController.combo == 0)
+        if(rhythmController.combo == 0 && rhythmController.comboFalho == true)
         {
-            animator.SetBool("ComboIniciar", false);
             animator.SetBool("ComboFalho", true);
+            animator.SetBool("ComboIniciar", false);
         }
 
     }

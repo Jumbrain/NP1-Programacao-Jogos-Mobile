@@ -23,7 +23,11 @@ public class BeatDestroyer : MonoBehaviour
     void AddPoints()
     {
         Destroy(rhythmController.currentBeat);
-        rhythmController.pontos += 10;
         rhythmController.combo++;
+        rhythmController.comboFalho = false;
+
+        float comboPoints = new float();
+        comboPoints = rhythmController.combo * 5;
+        rhythmController.pontos += 10.0f + comboPoints;
     }
 }

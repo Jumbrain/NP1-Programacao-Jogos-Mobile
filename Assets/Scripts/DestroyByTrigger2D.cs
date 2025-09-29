@@ -7,5 +7,6 @@ public class DestroyByTrigger2D : MonoBehaviour
     {
         Destroy(collision.gameObject);
         rhythmController.combo = 0;
+        rhythmController.comboFalho = true;
     }
 }

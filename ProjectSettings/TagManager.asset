@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ritmo
+  - Colisao
+  - NotaLonga pt1
   layers:
   - Default
   - TransparentFX
@@ -42,8 +44,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer 1
+  - name: Plateia
+    uniqueID: 2611492285
+    locked: 0
+  - name: UI
     uniqueID: 431790905
+    locked: 0
+  - name: Banda
+    uniqueID: 1673532005
+    locked: 0
+  - name: "Bot\xE3o"
+    uniqueID: 1984375643
+    locked: 0
+  - name: Texto
+    uniqueID: 271853819
     locked: 0
   m_RenderingLayers:
   - Default
