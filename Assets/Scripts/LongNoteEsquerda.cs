@@ -7,8 +7,8 @@ public class LongNoteEsquerda : MonoBehaviour
 
     void Start()
     {
-        longNote = gameObject.GetComponentInParent<LongNote>();
         rb = gameObject.GetComponent<Rigidbody2D>();
+        longNote = gameObject.GetComponentInParent<LongNote>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -19,7 +19,7 @@ public class LongNoteEsquerda : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Colisao"))
         {
