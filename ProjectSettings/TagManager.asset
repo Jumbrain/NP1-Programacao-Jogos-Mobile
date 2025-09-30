@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Ritmo
   - Colisao
-  - NotaLonga pt1
+  - HUDLongNote
   layers:
   - Default
   - TransparentFX
