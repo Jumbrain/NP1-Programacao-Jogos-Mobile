@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 090ade247c5fdb845997857758e8b31e
+guid: 527623edec3d8b54aaea9f6ab61161aa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2772694417731213452
-    second: tree quadro 2_0
+      213: -5473727470097918939
+    second: "Bot\xE3o0031_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tree quadro 2_0
+      name: "Bot\xE3o0031_0"
       rect:
         serializedVersion: 2
-        x: 204
-        y: 185
-        width: 724
-        height: 1553
+        x: 0
+        y: 0
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c88d39fe1e69a7620800000000000000
-      internalID: 2772694417731213452
+      spriteID: 5241483fdd96904b0800000000000000
+      internalID: -5473727470097918939
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      tree quadro 2_0: 2772694417731213452
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
