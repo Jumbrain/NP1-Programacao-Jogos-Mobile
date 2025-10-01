@@ -40,6 +40,7 @@ public class LongNote : MonoBehaviour
 
                     if (canBePressed)
                         {
+                            rhythmController.index++;
                             HoldingNote();
                         }
                     ;
@@ -48,6 +49,7 @@ public class LongNote : MonoBehaviour
                 case TouchPhase.Ended:
                     if (canBeReleased)
                         {
+                            rhythmController.index++;
                             ReleaseNoteCorrectly();
                         }
 

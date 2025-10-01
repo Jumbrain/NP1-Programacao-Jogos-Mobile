@@ -15,6 +15,7 @@ public class BeatDestroyer : MonoBehaviour
         {
             if (Input.GetTouch(0).phase == TouchPhase.Began)
             {
+                rhythmController.index++;
                 AddPoints();
             }
         }
