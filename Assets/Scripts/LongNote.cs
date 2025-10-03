@@ -11,6 +11,9 @@ public class LongNote : MonoBehaviour
     private LongNoteEsquerda longNoteEsquerda;
     public GameObject ritmoControlador;
 
+    //[Header("Animação")]
+    //public BeatDestroyer beatDestroyer;
+
 
     void Awake()
     {
@@ -67,6 +70,7 @@ public class LongNote : MonoBehaviour
     {
         longNoteEsquerda.rb.constraints = RigidbodyConstraints2D.FreezePosition;
         hudMenor.SetActive(true);
+        //beatDestroyer.animator.Play("HoldAnimation");
     }
 
     void ReleaseNoteCorrectly()

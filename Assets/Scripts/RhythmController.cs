@@ -1,6 +1,8 @@
+using JetBrains.Annotations;
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RhythmController : MonoBehaviour
 {
@@ -18,6 +20,10 @@ public class RhythmController : MonoBehaviour
     [Header("Animação")]
     public int index;
 
+    [Header("Objetivo")]
+    public int requisitoPontos;
+    public float timer;
+
     void Start()
     {
 
@@ -27,6 +33,7 @@ public class RhythmController : MonoBehaviour
     {
         tmpPonto.text = pontos.ToString();
         tmpCombo.text = combo.ToString();
+        TimerMusica();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,6 +50,20 @@ public class RhythmController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ritmo"))
         {
             correctTiming = false;
+        }
+    }
+
+    void TimerMusica()
+    {
+        timer -= Time.deltaTime;
+        if (timer < 0 && pontos < requisitoPontos)
+        {
+            SceneManager.LoadScene("Falha");
+        }
+
+        if (timer < 0 && pontos >= requisitoPontos)
+        {
+            SceneManager.LoadScene("Sucesso");
         }
     }
 }

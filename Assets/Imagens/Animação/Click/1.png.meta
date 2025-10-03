@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 42e087ca88e49b84187b198fe233b796
+guid: a576798e5b67c4e45add4911e8ffa94c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8164949360630521913
-    second: "TEL\xC3O 4_0"
+      213: -855298285791758126
+    second: 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "TEL\xC3O 4_0"
+      name: 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1080
-        height: 1920
+        x: 214
+        y: 659
+        width: 650
+        height: 719
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cf9096f0d540be80800000000000000
-      internalID: -8164949360630521913
+      spriteID: 2d8b16a9dbe5124f0800000000000000
+      internalID: -855298285791758126
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8a6be4f7f0ee6d849982e28dcde91747
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "TEL\xC3O 4_0": -8164949360630521913
+      1_0: -855298285791758126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

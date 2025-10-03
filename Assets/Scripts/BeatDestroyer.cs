@@ -4,9 +4,14 @@ public class BeatDestroyer : MonoBehaviour
 {
     private RhythmController rhythmController;
 
+    [Header("Animação")]
+    public GameObject hud;
+    public Animator animator;
+
     void Start()
     {
         rhythmController = GetComponent<RhythmController>();
+        animator = hud.GetComponent<Animator>();
     }
 
     void Update()
@@ -17,6 +22,7 @@ public class BeatDestroyer : MonoBehaviour
             {
                 rhythmController.index++;
                 AddPoints();
+                animator.Play("ClickAnimation");
             }
         }
     }
