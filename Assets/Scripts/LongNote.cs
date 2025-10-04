@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class LongNote : MonoBehaviour
@@ -95,5 +96,6 @@ public class LongNote : MonoBehaviour
         hudMenor.SetActive(false);
         Destroy(gameObject);
         rhythmController.combo = 0;
+        rhythmController.comboFalho = true;
     }
 }

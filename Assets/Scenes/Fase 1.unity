@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 89535475}
   - component: {fileID: 89535477}
   m_Layer: 0
-  m_Name: Three
+  m_Name: One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -557,7 +557,7 @@ GameObject:
   - component: {fileID: 214422165}
   - component: {fileID: 214422167}
   m_Layer: 0
-  m_Name: Two
+  m_Name: Three
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2630,7 +2630,7 @@ GameObject:
   - component: {fileID: 652738513}
   - component: {fileID: 652738515}
   m_Layer: 0
-  m_Name: One
+  m_Name: Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3568,7 +3568,7 @@ MonoBehaviour:
   tmpPonto: {fileID: 1941755817}
   tmpCombo: {fileID: 1800655415}
   index: 0
-  requisitoPontos: 2000
+  requisitoPontos: 5000
   timer: 270
 --- !u!58 &1067888212
 CircleCollider2D:

@@ -33,5 +33,10 @@ public class PlateiaManager : MonoBehaviour
             animator.SetBool("ComboIniciar", false);
         }
 
+        if (rhythmController.combo > 0)
+        {
+            animator.SetBool("ComboFalho", false);
+        }
+
     }
 }

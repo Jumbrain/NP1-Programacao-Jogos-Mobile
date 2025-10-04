@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class RhythmController : MonoBehaviour
 {
     [Header("Mecanica")]
-    public bool correctTiming = false;
+    public bool correctTiming;
     public GameObject currentBeat;
     public float pontos;
     public int combo = 0;
@@ -26,11 +26,16 @@ public class RhythmController : MonoBehaviour
 
     void Start()
     {
-
+        comboFalho = false;
     }
 
     void Update()
     {
+        if(combo > 0)
+        {
+            comboFalho = false;
+        }
+
         tmpPonto.text = pontos.ToString();
         tmpCombo.text = combo.ToString();
         TimerMusica();
