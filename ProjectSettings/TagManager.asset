@@ -8,6 +8,7 @@ TagManager:
   - Colisao
   - HUDLongNote
   - NotaMeio
+  - "Bot\xE3o"
   layers:
   - Default
   - TransparentFX

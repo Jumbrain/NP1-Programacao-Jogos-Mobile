@@ -115,7 +115,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268719100598537595}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 0.1396, y: 0.13960001, z: 0.13960001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -179,7 +179,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!114 &8787929148513265141
 MonoBehaviour:
@@ -279,7 +279,7 @@ Transform:
   m_GameObject: {fileID: 1569834782299239041}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.14, y: 0, z: 0}
+  m_LocalPosition: {x: -1.14, y: 0, z: -1}
   m_LocalScale: {x: 0.1396, y: 0.1396, z: 0.1396}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -338,7 +338,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!114 &1198999258839789269
 MonoBehaviour:
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destino: {x: -100, y: -3.694}
-  velocity: 2
+  velocity: 3
   rb: {fileID: 0}
 --- !u!114 &8816433574939433035
 MonoBehaviour:
@@ -403,7 +403,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 3.085
+  m_Radius: 2
 --- !u!50 &2728279973919579422
 Rigidbody2D:
   serializedVersion: 5
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destino: {x: -100, y: -3.694}
-  velocity: 2
+  velocity: 3
   rb: {fileID: 0}
 --- !u!50 &835999551261980325
 Rigidbody2D:

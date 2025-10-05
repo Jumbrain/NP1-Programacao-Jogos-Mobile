@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destino: {x: -100, y: -3.694}
-  velocity: 2
+  velocity: 3
   rb: {fileID: 0}
 --- !u!50 &6895897371505584354
 Rigidbody2D:
